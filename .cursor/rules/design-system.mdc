@@ -1,0 +1,301 @@
+---
+description: Design system do portfolio — cores violet, tipografia, componentes e padrões
+alwaysApply: true
+---
+
+# Design System — Portfolio Pessoal
+
+Next.js + shadcn/ui + Tailwind CSS | **Primary: #471bf6 (Violet Deep)** | v2.0 — Fevereiro 2026
+
+---
+
+## 1. Filosofia de Design
+
+**Conceito:** "O Arquiteto Digital" — abordagem clean/engineering com personalidade marcante. O roxo profundo transmite inovação, criatividade técnica e sofisticação sem ser corporativo demais.
+
+**Princípios diretores:**
+
+- **Exaggerated Hierarchy:** Contraste extremo entre tipos grandes e microtexto
+- **Violet Authority:** Cor primária usada com confiança, não timidez
+- **Performance First:** Zero dependências pesadas, CSS优先
+- **Intentional Whitespace:** Respiro generoso como elemento de design
+- **Micro-interactions Subtle:** Feedback sutil, nunca intrusivo
+
+---
+
+## 2. Paleta de Cores
+
+### Cores Primárias (Background & Texto) — Dark (padrão)
+
+| Variável | Valor | Uso |
+|----------|-------|-----|
+| `--bg-primary` | #0a0a0f | Deep space — fundo principal |
+| `--bg-secondary` | #12121a | Elevated surface — cards, seções |
+| `--bg-tertiary` | #1e1e2e | Surface higher — hover, bordas |
+| `--text-primary` | #f8f8fc | Off-white azulado — títulos, corpo |
+| `--text-secondary` | #a0a0b0 | Lavender gray — descrições, metadados |
+| `--text-tertiary` | #6b6b80 | Muted purple-gray — placeholders |
+
+### Cores de Destaque (Primary Violet Scale)
+
+| Variável | Valor | Uso |
+|----------|-------|-----|
+| `--primary` | #471bf6 | Violet deep — CTAs, links |
+| `--primary-hover` | #5a35f7 | Violet light — hover |
+| `--primary-subtle` | #2a1266 | Violet dark 20% — backgrounds destaque |
+| `--primary-glow` | rgba(71,27,246,0.15) | Glow sutil |
+
+### Cores Semânticas
+
+| Variável | Valor | Uso |
+|----------|-------|-----|
+| `--success` | #22c55e | Green vibrante — sucesso, online |
+| `--success-subtle` | rgba(34,197,94,0.15) | Background success |
+| `--warning` | #f59e0b | Amber — avisos |
+| `--warning-subtle` | rgba(245,158,11,0.15) | Background warning |
+| `--error` | #ef4444 | Red — erros, crítico |
+| `--error-subtle` | rgba(239,68,68,0.15) | Background error |
+| `--info` | #06b6d4 | Cyan — informações |
+| `--info-subtle` | rgba(6,182,212,0.15) | Background info |
+
+### Cores Complementares
+
+| Variável | Valor | Uso |
+|----------|-------|-----|
+| `--accent-pink` | #ec4899 | Pink — detalhes criativos |
+| `--accent-cyan` | #06b6d4 | Cyan — contrastes frios |
+| `--accent-lime` | #84cc16 | Lime — CTAs alternativos |
+
+### Gradientes
+
+| Variável | Valor |
+|----------|-------|
+| `--gradient-hero` | linear-gradient(135deg, #471bf6 0%, #7c3aed 50%, #06b6d4 100%) |
+| `--gradient-subtle` | linear-gradient(180deg, #12121a 0%, #0a0a0f 100%) |
+| `--gradient-glow` | radial-gradient(circle at 50% 0%, rgba(71,27,246,0.15) 0%, transparent 50%) |
+
+### Light Mode (alternativo)
+
+| Variável | Valor |
+|----------|-------|
+| `--bg-primary-light` | #fafafa |
+| `--bg-secondary-light` | #f4f4f5 |
+| `--bg-tertiary-light` | #e4e4e7 |
+| `--text-primary-light` | #18181b |
+| `--text-secondary-light` | #52525b |
+| `--primary-light` | #471bf6 |
+| `--primary-hover-light` | #3b16c9 |
+| `--primary-subtle-light` | #ede9fe |
+
+**Regras:** Fundos tons profundos (nunca #000 puro). Texto off-white azulado. #471bf6 em CTAs, links, badges. Glows com 15% opacity.
+
+---
+
+## 3. Tipografia
+
+### Famílias
+
+- **Display/Headings:** Inter, system-ui, sans-serif
+- **Body:** Inter, system-ui, sans-serif
+- **Monospace/Labels:** JetBrains Mono, Fira Code, monospace
+
+### Escala Tipográfica
+
+| Elemento | Tamanho | Weight | Letter-spacing | Line-height |
+|----------|---------|--------|----------------|-------------|
+| H1 (Hero) | 96px | **700** | -0.03em | 1.0 |
+| H2 (Section) | 48px | 700 | -0.02em | 1.1 |
+| H3 (Project) | 32px | 600 | -0.01em | 1.2 |
+| H4 (Card) | 24px | 600 | 0 | 1.3 |
+| H5 (Subtitle) | 18px | 500 | 0 | 1.4 |
+| H6 (Label) | 14px | 600 | 0.05em | 1.4 |
+| Body Large | 18px | 400 | 0 | 1.6 |
+| Body | 16px | 400 | 0 | 1.6 |
+| Body Small | 14px | 400 | 0 | 1.5 |
+| Caption | 12px | 400 | 0.01em | 1.4 |
+| Micro/Mono | 12px | 500 | 0.1em | 1.2 |
+
+### Responsividade
+
+- **Mobile (<640px):** H1: 48px, H2: 32px, H3: 24px
+- **Tablet (640-1024px):** H1: 64px, H2: 40px, H3: 28px
+- **Desktop (>1024px):** H1: 96px, H2: 48px, H3: 32px
+
+**Regras:** H1 pode usar gradient text com #471bf6 (opcional). Font-weight nunca abaixo de 400.
+
+---
+
+## 4. Espaçamento & Grid
+
+### Sistema (Base 8px)
+
+`--space-1` a `--space-11`: 4px → 160px
+
+### Grid
+
+- Container max-width: 1200px
+- Padding: 24px (mobile) / 48px (desktop)
+- Column gap: 24px (desktop) / 16px (mobile)
+- Row gap: 48px
+
+### Breakpoints
+
+`--bp-sm: 640px` | `--bp-md: 768px` | `--bp-lg: 1024px` | `--bp-xl: 1280px` | `--bp-2xl: 1536px`
+
+### Seções
+
+- Section padding vertical: 96px–160px
+- Hero: 100vh ou min-height 800px
+- Cards: padding 24–32px, border-radius **12px**
+
+---
+
+## 5. Componentes UI
+
+### Botões
+
+**Primary:** `bg-[#471bf6]`, text white, padding 12px 24px, rounded-lg, font 600 uppercase. Box-shadow glow. Hover: `bg-[#5a35f7]`, translateY(-2px), shadow maior. Active: shadow inset.
+
+**Secondary:** Transparent, border 1px `#471bf6`, text `#471bf6`. Hover: `bg-[#2a1266]`, border `#5a35f7`.
+
+**Ghost:** Transparent, text `text-secondary`. Hover: text `#471bf6`, underline animado.
+
+### Cards
+
+**Project Card:** `bg-[#12121a]`, border `#1e1e2e`, rounded-xl. Hover: translateY(-4px), border `rgba(71,27,246,0.3)`, shadow + glow. Image 16/9, content padding 24px.
+
+**Stat Card:** Border sutil, text-align center. Número H2 `#471bf6`, label caption uppercase.
+
+**Feature Card:** Ícone 40px com `primary` e `primary-subtle`. Title H5, description body small.
+
+### Links
+
+- **Text Link:** Cor `#471bf6`, font-weight 500. Hover: `#5a35f7`. Underline ::after 2px.
+- **Nav Link:** `text-secondary`, hover `text-primary`. Active: `#471bf6` com dot/underline.
+
+### Tags/Badges
+
+**Tech Tag:** `bg-[#1e1e2e]`, padding 4px 12px, monospace. Hover: border `rgba(71,27,246,0.3)`.
+
+**Tech Tag destacada:** `bg-[#2a1266]`, `#5a35f7`, border `rgba(71,27,246,0.3)`.
+
+**Status Badge:** Online (success-subtle), Offline (error-subtle). Indicator 8px, pulse para online.
+
+### Inputs
+
+Background `#12121a`, border `#1e1e2e`, rounded-lg. Focus: border `#471bf6`, shadow `0 0 0 3px rgba(71,27,246,0.15)`.
+
+---
+
+## 6. Animações & Interações
+
+**Princípios:** Feedback com propósito. Preferir `transform` e `opacity`. Duração 150–300ms. `prefers-reduced-motion`.
+
+**Durações:** fast 150ms | normal 200ms | slow 300ms | slower 500ms
+
+**Easing:** default `cubic-bezier(0.4, 0, 0.2, 1)` | spring `(0.34, 1.56, 0.64, 1)`
+
+**Animações:** Fade In Up | Scale In | Underline Grow | Card Lift + glow | **Glow Pulse** | **Gradient Shift** (hero)
+
+**Scroll:** Sticky header com `backdrop-blur` e `rgba(10,10,15,0.8)` quando scrolled.
+
+**Performance:** Glows com `box-shadow`, não `filter: drop-shadow`.
+
+---
+
+## 7. Seções Específicas
+
+### Hero
+
+Layout full viewport, flex column justify-center. Micro-label mono `#471bf6` → H1 96px bold → headline 48px `text-secondary` → CTAs. Background `#0a0a0f` + radial-gradient topo com primary-glow. Opcional: gradient text H1.
+
+### Projects
+
+Zig-zag, gap 96px. Label "CASE STUDY 01" em `#471bf6` → Title H3 → Description → Solution → Metrics em `#471bf6` → Tags → Links `#471bf6`.
+
+### Stack
+
+Grid 3 col. Icon hover `#471bf6`. Barra progresso fill `#471bf6`.
+
+### About
+
+2 col, gap 48px. Photo border hover `#471bf6`. Pillars ícones `#471bf6`. Timeline dots `#471bf6`.
+
+### Contact
+
+Centered max-width 600px. Headline "Vamos construir algo juntos?". Links cards hover border `#471bf6` e glow. Terminal fake prompt `#471bf6`.
+
+---
+
+## 8. Assets & Mídia
+
+**Imagens:** WebP < 200KB, lazy loading. Tons frios/neutros. Overlays com primary-glow opcional.
+
+**Ícones:** Lucide React. Tamanhos 16/20/24/32px. Hover `#471bf6`.
+
+**Meta:** Favicon SVG `#471bf6`. OG 1200x630 fundo escuro, texto violet e branco. Theme-color `#0a0a0f`.
+
+---
+
+## 9. Acessibilidade
+
+- Contraste 4.5:1 (#471bf6 sobre fundos)
+- Focus outline `#471bf6` ou branco, 2px offset
+- Skip link, alt text, aria-label
+- `prefers-reduced-motion`
+- Semântica: header, nav, main, section, footer
+
+---
+
+## 10. Performance (1GB RAM)
+
+- Static export, font-display swap, Tailwind purge
+- Glows: `box-shadow` em vez de filter
+- Budgets: FCP < 1.5s | TTI < 3.5s | Bundle < 200KB | Lighthouse > 90
+
+---
+
+## 11. Exemplos Tailwind
+
+```
+// Container
+max-w-[1200px] mx-auto px-6 md:px-12
+
+// Section
+py-24 md:py-40 bg-[#0a0a0f]
+
+// Typography
+text-[96px] font-bold tracking-tight leading-none text-[#f8f8fc]
+text-sm font-medium uppercase tracking-widest text-[#471bf6]
+
+// Card
+bg-[#12121a] border border-[#1e1e2e] rounded-xl p-6 transition-all duration-300 hover:-translate-y-1 hover:border-[#471bf6]/30 hover:shadow-[0_20px_40px_rgba(0,0,0,0.3),0_0_30px_rgba(71,27,246,0.1)]
+
+// Button Primary
+bg-[#471bf6] text-white px-6 py-3 rounded-lg text-sm font-semibold uppercase tracking-wider hover:bg-[#5a35f7] hover:-translate-y-0.5 transition-all duration-200 shadow-[0_0_20px_rgba(71,27,246,0.3)] hover:shadow-[0_4px_20px_rgba(71,27,246,0.4)]
+
+// Button Secondary
+bg-transparent border border-[#471bf6] text-[#471bf6] px-6 py-3 rounded-lg hover:bg-[#2a1266] transition-colors
+
+// Glow
+shadow-[0_0_30px_rgba(71,27,246,0.15)]
+
+// Gradient Text
+bg-gradient-to-r from-[#471bf6] to-[#06b6d4] bg-clip-text text-transparent
+
+// Layouts
+flex flex-col md:flex-row gap-12 items-center
+grid md:grid-cols-2 gap-12 items-center
+```
+
+---
+
+## 12. Checklist Pré-lançamento
+
+**Visual:** #471bf6 consistente, contraste OK, hierarquia clara, dark (padrão) + light opcional, responsivo, glows moderados.
+
+**Funcional:** Navegação suave, hover states, reduced-motion, links nova aba.
+
+**Performance:** Lighthouse > 90, box-shadow (não filter) para glows.
+
+**Conteúdo:** Textos revisados, meta OG, favicon `#471bf6`.
