@@ -71,7 +71,7 @@ export function AboutSection() {
             {timeline && timeline.length > 0 && (
               <div className="mt-12 border-l-2 border-primary/30 pl-6">
                 {timeline.map((item) => (
-                  <div key={item.year} className="relative pb-8 last:pb-0">
+                  <div key={`${item.year}-${item.title}`} className="relative pb-8 last:pb-0">
                     <span
                       className="absolute -left-[29px] size-3 rounded-full bg-primary"
                       aria-hidden

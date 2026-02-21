@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { cn } from "@/lib/utils";
+import Image from "next/image";
 
 const navItems = [
   { href: "#projetos", label: "Projetos" },
@@ -16,7 +17,7 @@ export function SiteHeader() {
           href="/"
           className="font-semibold text-foreground transition-colors hover:text-foreground/80 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
         >
-          Portfolio
+          <Image src="/logo_two.png" alt="Nicolas Lopes" width={100} height={100} />
         </Link>
         <nav aria-label="Principal">
           <ul className="flex items-center gap-6">

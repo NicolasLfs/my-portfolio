@@ -14,18 +14,18 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Seu Nome — Desenvolvedor Fullstack | Portfolio",
+  title: "Nicolas Lopes — Desenvolvedor Fullstack | Portfolio",
   description:
     "Desenvolvedor especializado em Next.js, React e Node.js. Veja meus projetos e vamos conversar sobre sua próxima ideia.",
   openGraph: {
-    title: "Seu Nome — Desenvolvedor Fullstack | Portfolio",
+    title: "Nicolas Lopes — Desenvolvedor Fullstack | Portfolio",
     description:
       "Desenvolvedor especializado em Next.js, React e Node.js. Veja meus projetos e vamos conversar sobre sua próxima ideia.",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Seu Nome — Desenvolvedor Fullstack | Portfolio",
+    title: "Nicolas Lopes — Desenvolvedor Fullstack | Portfolio",
     description:
       "Desenvolvedor especializado em Next.js, React e Node.js. Veja meus projetos e vamos conversar sobre sua próxima ideia.",
   },

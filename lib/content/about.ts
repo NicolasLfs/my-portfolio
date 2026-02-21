@@ -8,7 +8,7 @@ export const aboutContent: AboutContent = {
     "Atualmente sou CTO na Teorize, onde lidero a construção da plataforma de gestão de projetos e dos produtos do ecossistema: Coreli (CRM com IA para WhatsApp e redes sociais) e MeulinkPRO (cartão de visita digital e links).",
   ],
   timeline: [
-    { year: "~2020", title: "Início em agências de marketing", description: "Desenvolvimento e otimização de e-commerce" },
+    { year: "2020", title: "Início em agências de marketing", description: "Desenvolvimento e otimização de e-commerce" },
     { year: "2022", title: "Stack moderna", description: "Next.js, NestJS e ferramentas cloud" },
     { year: "2024", title: "Escala e integrações", description: "RabbitMQ, Redis, APIs e microserviços" },
     { year: "2024", title: "CTO na Teorize", description: "Liderança técnica, Teorize, Coreli e MeulinkPRO" },
