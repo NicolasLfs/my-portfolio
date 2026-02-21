@@ -3,56 +3,61 @@ import type { StackContent } from "@/types/portfolio";
 export const stackContent: StackContent = {
   categories: [
     {
-      name: "Frontend & UI",
+      name: "Front-End",
       items: [
-        { name: "Next.js / React", years: 3 },
-        { name: "TypeScript", years: 2 },
+        { name: "JavaScript", years: 6 },
+        { name: "React.js / Next.js", years: 2 },
         { name: "Tailwind CSS", years: 2 },
-        { name: "shadcn/ui", years: 1 },
+        { name: "Shadcn/ui", years: 2 },
+        { name: "jQuery", years: 3 },
       ],
     },
     {
-      name: "Backend & API",
+      name: "Back-End & Dados",
       items: [
-        { name: "Node.js / Express", years: 2 },
-        { name: "PostgreSQL", years: 2 },
-        { name: "Redis", years: 1 },
-        { name: "tRPC / GraphQL", years: 1 },
+        { name: "Node.js", years: 6 },
+        { name: "NestJS", years: 2 },
+        { name: "Python / Django", years: 1 },
+        { name: "PostgreSQL", years: 6 },
+        { name: "TypeORM / Drizzle / Prisma", years: 3 },
+        { name: "Redis", years: 2 },
       ],
     },
     {
-      name: "DevOps & Cloud",
+      name: "Integração & Cloud",
       items: [
-        { name: "Docker", years: 1 },
-        { name: "AWS / Oracle Cloud", years: 1 },
-        { name: "CI/CD (GitHub Actions)", years: 1 },
-        { name: "Linux", years: 3 },
+        { name: "RabbitMQ", years: 2 },
+        { name: "Git", years: 6 },
+        { name: "Docker", years: 2 },
+        { name: "Kong", years: 2 },
+        { name: "Amazon AWS", years: 2 },
+        { name: "Google Cloud / Workspace", years: 2 },
       ],
     },
   ],
   pillars: [
     {
-      title: "Código limpo e testado",
+      title: "Interfaces responsivas e SEO",
       description:
-        "Escrevo código modular, bem documentado e com cobertura de testes para garantir manutenibilidade.",
-      icon: "code",
-    },
-    {
-      title: "Performance first",
-      description:
-        "Otimizo desde o primeiro dia, medindo Core Web Vitals e buscando a melhor experiência do usuário.",
+        "Desenvolvimento de interfaces otimizadas para desempenho e busca, com foco em Core Web Vitals.",
       icon: "zap",
     },
     {
-      title: "Arquitetura escalável",
+      title: "APIs e microserviços",
       description:
-        "Desenho sistemas pensando no crescimento, com patterns que permitem evolução sem retrabalho.",
+        "Integração de sistemas com RabbitMQ para comunicação assíncrona e Redis para cache e sessões.",
       icon: "layers",
     },
     {
-      title: "Colaboração efetiva",
+      title: "Back-end robusto com NestJS",
       description:
-        "Trabalho bem em equipe, com code reviews construtivos e comunicação clara de decisões técnicas.",
+        "Construção de aplicações escaláveis e bem estruturadas com NestJS.",
+      icon: "code",
+    },
+    {
+      title: "CI/CD e deploy em cloud",
+      description:
+        "Práticas de pipeline e deploy em AWS e ambientes cloud.",
       icon: "users",
     },
   ],

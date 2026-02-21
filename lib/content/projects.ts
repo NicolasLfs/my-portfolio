@@ -3,56 +3,53 @@ import type { Project } from "@/types/portfolio";
 export const projects: Project[] = [
   {
     id: "1",
-    label: "CASE STUDY 01",
-    title: "Plataforma de E-learning",
+    label: "TEORIZE",
+    title: "Plataforma de gestão de projetos",
     problem:
-      "Uma edtech em crescimento precisava reduzir o tempo de carregamento de aulas que chegava a 15 segundos, impactando a retenção de alunos.",
+      "Empresas precisavam controlar operações, projetos e oportunidades em um só lugar, com eficiência e segurança.",
     solution:
-      "Migrei a arquitetura para Next.js com ISR, implementei cache distribuído com Redis e otimizei queries do PostgreSQL. Reduzi o bundle em 60% com code-splitting estratégico.",
+      "Plataforma all-in-one para gestão de projetos e operações. Controle centralizado, fluxos claros e experiência pensada para multiplicar resultados.",
     metrics: [
-      { value: "95%", label: "Redução no tempo de carregamento" },
-      { value: "2x", label: "Aumento na retenção de usuários" },
-      { value: "40%", label: "Menos custos de infraestrutura" },
+      { value: "All-in-one", label: "Gestão unificada" },
+      { value: "Eficiência", label: "Operações sob controle" },
+      { value: "Segurança", label: "Dados e processos" },
     ],
-    techStack: ["Next.js", "TypeScript", "PostgreSQL", "Redis", "AWS", "Tailwind"],
+    techStack: ["Next.js", "Node/NestJS", "PostgreSQL", "Redis", "AWS"],
     image: "/placeholder-project.jpg",
-    links: {
-      demo: "https://example.com",
-      github: "https://github.com",
-    },
+    links: { demo: "https://teorize.com.br" },
   },
   {
     id: "2",
-    label: "PROJETO DESTACADO",
-    title: "Marketplace de Serviços",
+    label: "ECOSYSTEM",
+    title: "Coreli — CRM com IA",
     problem:
-      "Plataforma B2B precisava de dashboard admin e integração de pagamento com SLA de 99,9%.",
+      "Atendimento no WhatsApp, Instagram e Messenger em escala, com qualificação de leads e agendamento sem depender 100% de humanos.",
     solution:
-      "Arquitetura serverless com Next.js API routes, Stripe Connect e Prisma. Filas com Bull para jobs assíncronos.",
+      "Back-end em Python com Django; agentes de IA (GPT, Claude, Gemini) para automatizar atendimento 24/7, qualificar leads e agendar reuniões. Integração Meta Chat, transcrição de áudio e automações.",
     metrics: [
-      { value: "99,9%", label: "Uptime mensal" },
-      { value: "5k", label: "Transações/mês" },
-      { value: "3s", label: "Tempo médio de checkout" },
+      { value: "24/7", label: "Atendimento com IA" },
+      { value: "Multi-canal", label: "WhatsApp, Instagram, Messenger" },
+      { value: "Leads", label: "Qualificação e agendamento" },
     ],
-    techStack: ["Next.js", "Stripe", "Prisma", "PostgreSQL", "Vercel"],
+    techStack: ["Python", "Django", "IA (GPT, Claude, Gemini)", "APIs Meta"],
     image: "/placeholder-project.jpg",
-    links: { github: "https://github.com" },
+    links: { demo: "https://coreli.com.br" },
   },
   {
     id: "3",
-    label: "E-COMMERCE",
-    title: "Loja com Dashboard Analytics",
+    label: "ECOSYSTEM",
+    title: "MeulinkPRO — Cartão de visita digital",
     problem:
-      "E-commerce precisava de relatórios em tempo real e experiência de compra otimizada para mobile.",
+      "Profissionais e negócios precisavam de uma presença digital simples: uma página e links curtos em um só lugar.",
     solution:
-      "Next.js App Router, TanStack Query para cache no cliente, Chart.js para dashboards. PWA com service worker para offline.",
+      "Plataforma para criar páginas e gerenciar links curtos de forma simples e eficiente. Cartão de visita digital, dashboard e documentação para o usuário.",
     metrics: [
-      { value: "70%", label: "Tráfego mobile" },
-      { value: "50%", label: "Aumento em conversão" },
-      { value: "<2s", label: "LCP em 3G" },
+      { value: "1 lugar", label: "Página + links" },
+      { value: "Simples", label: "Criação e gestão" },
+      { value: "Pro", label: "Recursos avançados" },
     ],
-    techStack: ["Next.js", "TanStack Query", "Chart.js", "PWA"],
+    techStack: ["Next.js", "React", "Tailwind", "APIs"],
     image: "/placeholder-project.jpg",
-    links: { demo: "https://example.com", github: "https://github.com" },
+    links: { demo: "https://meulinkpro.com.br" },
   },
 ];

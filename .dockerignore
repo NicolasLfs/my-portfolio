@@ -1,0 +1,10 @@
+.git
+.gitignore
+.next
+node_modules
+.pnpm-store
+README.md
+.env*
+*.md
+.cursor
+.DS_Store

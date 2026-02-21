@@ -4,33 +4,26 @@ export const contactContent: ContactContent = {
   channels: [
     {
       id: "email",
-      label: "Email direto",
-      value: "seu@email.com",
-      href: "mailto:seu@email.com",
+      label: "Email",
+      value: "nicolas.lopes@agenciateorize.com.br",
+      href: "mailto:nicolas.lopes@agenciateorize.com.br",
       icon: "mail",
       highlight: true,
     },
     {
       id: "linkedin",
       label: "LinkedIn",
-      value: "linkedin.com/in/seuperfil",
-      href: "https://linkedin.com/in/seuperfil",
+      value: "linkedin.com/in/nicolas-lopes-4906b1108/",
+      href: "https://www.linkedin.com/in/nicolas-lopes-4906b1108/",
       icon: "linkedin",
     },
     {
       id: "github",
       label: "GitHub",
-      value: "github.com/seuuser",
-      href: "https://github.com/seuuser",
+      value: "github.com/NicolasLfs",
+      href: "https://github.com/NicolasLfs",
       icon: "github",
-    },
-    {
-      id: "calendar",
-      label: "Agendar call",
-      value: "15 minutos",
-      href: "https://calendly.com",
-      icon: "calendar",
-    },
+    }    
   ],
   footerText: "Respondo em até 24 horas • Disponível para trabalho remoto",
 };

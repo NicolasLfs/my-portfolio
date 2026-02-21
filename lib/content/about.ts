@@ -3,19 +3,19 @@ import type { AboutContent } from "@/types/portfolio";
 export const aboutContent: AboutContent = {
   image: "/placeholder-about.jpg",
   paragraphs: [
-    "Comecei na programação aos 15 anos, criando mods de Minecraft para jogar com amigos. O que começou como curiosidade sobre 'como as coisas funcionam' se tornou obsessão por construir sistemas reais.",
-    "Depois de 4 anos em vendas técnicas, decidi fazer a transição definitiva para tecnologia em 2022. Completei um bootcamp intensivo de desenvolvimento fullstack e, desde então, venho construindo aplicações que resolvem problemas reais.",
-    "O que me move é a ideia de que código bom é código que outras pessoas podem entender e manter. Busco sempre o equilíbrio entre entrega rápida e arquitetura sólida. Fora do VS Code, você me encontra tocando guitarra em bandas de garagem ou explorando trilhas de mountain bike.",
+    "Sou apaixonado por criar interfaces web elegantes, interativas e de alto desempenho. Com 5 anos de experiência em agências de marketing, desenvolvi e otimizei lojas virtuais para mais de 100 clientes, usando Loja Integrada, Tray Commerce e NuvemShop.",
+    "Profissional pleno, movido pela curiosidade e pelo desejo constante de aprender. Sempre explorando novas tecnologias para elevar a qualidade dos projetos: interfaces responsivas e SEO, integração de APIs e microserviços com RabbitMQ e Redis, back-end robusto com NestJS e práticas de CI/CD em AWS.",
+    "Atualmente sou CTO na Teorize, onde lidero a construção da plataforma de gestão de projetos e dos produtos do ecossistema: Coreli (CRM com IA para WhatsApp e redes sociais) e MeulinkPRO (cartão de visita digital e links).",
   ],
   timeline: [
-    { year: "2022", title: "Primeiro contato com programação", description: "Curso/bootcamp que iniciou tudo" },
-    { year: "2023", title: "Primeiro projeto freelance", description: "Conquista específica, aprendizado chave" },
-    { year: "2024", title: "Especialização em Next.js", description: "Projeto importante, promoção" },
-    { year: "2025", title: "Atualmente", description: "Onde está agora, o que busca" },
+    { year: "~2020", title: "Início em agências de marketing", description: "Desenvolvimento e otimização de e-commerce" },
+    { year: "2022", title: "Stack moderna", description: "Next.js, NestJS e ferramentas cloud" },
+    { year: "2024", title: "Escala e integrações", description: "RabbitMQ, Redis, APIs e microserviços" },
+    { year: "2024", title: "CTO na Teorize", description: "Liderança técnica, Teorize, Coreli e MeulinkPRO" },
   ],
   stats: [
-    { value: "3+", label: "Anos de experiência" },
-    { value: "15+", label: "Projetos entregues" },
-    { value: "2", label: "Certificações" },
+    { value: "5+", label: "Anos de experiência" },
+    { value: "100+", label: "Lojas/clientes" },
+    { value: "—", label: "Foco em performance" },
   ],
 };
