@@ -38,18 +38,27 @@ export const projects: Project[] = [
   {
     id: "3",
     label: "ECOSYSTEM",
-    title: "MeulinkPRO — Cartão de visita digital",
+    title: "MeulinkPRO — Cartão de visita digital e links encurtados",
     problem:
-      "Profissionais e negócios precisavam de uma presença digital simples: uma página e links curtos em um só lugar.",
+      "Profissionais e negócios precisavam de uma presença digital profissional: páginas de perfil, links curtos e métricas em um só lugar.",
     solution:
-      "Plataforma para criar páginas e gerenciar links curtos de forma simples e eficiente. Cartão de visita digital, dashboard e documentação para o usuário.",
+      "Plataforma SaaS para criar páginas de perfil e gerenciar links curtos. Ecossistema com backend em Go e frontend em Next.js, assinaturas via Stripe, domínios customizados com SSL automático e analytics integrado (Meta, GA, GTM, TikTok). API REST em Go com sqlc e pgx, domínios customizados com sync via SSH/Traefik, i18n em 5 idiomas e builder visual de páginas.",
     metrics: [
-      { value: "1 lugar", label: "Página + links" },
-      { value: "Simples", label: "Criação e gestão" },
-      { value: "Pro", label: "Recursos avançados" },
+      { value: "Go + Next.js", label: "API REST e frontend" },
+      { value: "Stripe", label: "Assinaturas e webhooks" },
+      { value: "5 idiomas", label: "i18n completo" },
     ],
-    techStack: ["Next.js", "React", "Tailwind", "APIs"],
-    image: "/placeholder-project.jpg",
+    techStack: [
+      "Go",
+      "Next.js 16",
+      "React 19",
+      "PostgreSQL",
+      "Stripe",
+      "AWS S3",
+      "Docker",
+      "Traefik",
+    ],
+    image: "/mlp.png",
     links: { demo: "https://meulinkpro.com.br" },
   },
 ];
