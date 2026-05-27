@@ -14,20 +14,20 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Nicolas Lopes — Desenvolvedor Fullstack | Portfolio",
+  title: "Nicolas Lopes — CTO & Engenheiro de Software | Portfolio",
   description:
-    "Desenvolvedor especializado em Next.js, React e Node.js. Veja meus projetos e vamos conversar sobre sua próxima ideia.",
+    "CTO na Teorize. Arquitetura, integrações e escalabilidade — sistemas robustos com Next.js, NestJS, Go, RabbitMQ, Redis e Stripe.",
   openGraph: {
-    title: "Nicolas Lopes — Desenvolvedor Fullstack | Portfolio",
+    title: "Nicolas Lopes — CTO & Engenheiro de Software | Portfolio",
     description:
-      "Desenvolvedor especializado em Next.js, React e Node.js. Veja meus projetos e vamos conversar sobre sua próxima ideia.",
+      "CTO na Teorize. Arquitetura, integrações e escalabilidade — sistemas robustos com Next.js, NestJS, Go, RabbitMQ, Redis e Stripe.",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Nicolas Lopes — Desenvolvedor Fullstack | Portfolio",
+    title: "Nicolas Lopes — CTO & Engenheiro de Software | Portfolio",
     description:
-      "Desenvolvedor especializado em Next.js, React e Node.js. Veja meus projetos e vamos conversar sobre sua próxima ideia.",
+      "CTO na Teorize. Arquitetura, integrações e escalabilidade — sistemas robustos com Next.js, NestJS, Go, RabbitMQ, Redis e Stripe.",
   },
   metadataBase: new URL("https://seusite.com"),
 };

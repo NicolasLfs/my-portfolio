@@ -6,10 +6,10 @@ export const stackContent: StackContent = {
       name: "Front-End",
       items: [
         { name: "JavaScript", years: 6 },
-        { name: "React.js / Next.js", years: 2 },
-        { name: "Tailwind CSS", years: 2 },
-        { name: "Shadcn/ui", years: 2 },
-        { name: "jQuery", years: 3 },
+        { name: "React.js", years: 3 },
+        { name: "Next.js", years: 3 },
+        { name: "Tailwind CSS", years: 3 },
+        { name: "jQuery", years: 5 },
       ],
     },
     {
@@ -17,21 +17,26 @@ export const stackContent: StackContent = {
       items: [
         { name: "Node.js", years: 6 },
         { name: "NestJS", years: 2 },
-        { name: "Python / Django", years: 1 },
-        { name: "PostgreSQL", years: 6 },
+        { name: "Python", years: 2 },
+        { name: "Go", years: 1 },
+        { name: "PostgreSQL", years: 5 },
+        { name: "Redis", years: 3 },
         { name: "TypeORM / Drizzle / Prisma", years: 3 },
-        { name: "Redis", years: 2 },
+        { name: "Sqlc", years: 1 },
       ],
     },
     {
-      name: "Integração & Cloud",
+      name: "Integração, Cloud & Pagamentos",
       items: [
         { name: "RabbitMQ", years: 2 },
+        { name: "Amazon AWS / S3", years: 3 },
+        { name: "MinIO / Backblaze", years: 1 },
+        { name: "Google Cloud / VPS", years: 4 },
+        { name: "Stripe / APIs de pagamento", years: 3 },
         { name: "Git", years: 6 },
-        { name: "Docker", years: 2 },
-        { name: "Kong", years: 2 },
-        { name: "Amazon AWS", years: 2 },
-        { name: "Google Cloud / Workspace", years: 2 },
+        { name: "Docker", years: 3 },
+        { name: "Kong Gateway", years: 3 },
+        { name: "Google Workspace", years: 4 },
       ],
     },
   ],
@@ -43,22 +48,40 @@ export const stackContent: StackContent = {
       icon: "zap",
     },
     {
-      title: "APIs e microserviços",
+      title: "Microserviços e cache",
       description:
-        "Integração de sistemas com RabbitMQ para comunicação assíncrona e Redis para cache e sessões.",
+        "Arquitetura com comunicação assíncrona via RabbitMQ e cache/sessões com Redis.",
       icon: "layers",
     },
     {
-      title: "Back-end robusto com NestJS",
+      title: "Back-end NestJS, Go e Python",
       description:
-        "Construção de aplicações escaláveis e bem estruturadas com NestJS.",
+        "Construção de aplicações robustas e escaláveis com stacks adequadas a cada contexto.",
       icon: "code",
+    },
+    {
+      title: "Type-safety por stack",
+      description:
+        "ORMs modernos no Node.js (Drizzle, Prisma, TypeORM) e Sqlc para Go, priorizando SQL gerada e performance.",
+      icon: "code",
+    },
+    {
+      title: "VPS e storage S3",
+      description:
+        "Deploy e infraestrutura em VPS, com domínio de múltiplas soluções S3 (AWS, MinIO, Backblaze).",
+      icon: "server",
+    },
+    {
+      title: "Integrações de pagamento",
+      description:
+        "Stripe e outros gateways implementados diretamente via documentação oficial e APIs.",
+      icon: "layers",
     },
     {
       title: "CI/CD e deploy em cloud",
       description:
-        "Práticas de pipeline e deploy em AWS e ambientes cloud.",
-      icon: "users",
+        "Práticas de pipeline e deploy em ambientes cloud e VPS.",
+      icon: "workflow",
     },
   ],
 };

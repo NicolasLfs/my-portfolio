@@ -1,21 +1,36 @@
 import type { AboutContent } from "@/types/portfolio";
 
 export const aboutContent: AboutContent = {
-  image: "/placeholder-about.jpg",
+  image: "/nick.jpeg",
   paragraphs: [
-    "Sou apaixonado por criar interfaces web elegantes, interativas e de alto desempenho. Com 5 anos de experiência em agências de marketing, desenvolvi e otimizei lojas virtuais para mais de 100 clientes, usando Loja Integrada, Tray Commerce e NuvemShop.",
-    "Profissional pleno, movido pela curiosidade e pelo desejo constante de aprender. Sempre explorando novas tecnologias para elevar a qualidade dos projetos: interfaces responsivas e SEO, integração de APIs e microserviços com RabbitMQ e Redis, back-end robusto com NestJS e práticas de CI/CD em AWS.",
-    "Atualmente sou CTO na Teorize, onde lidero a construção da plataforma de gestão de projetos e dos produtos do ecossistema: Coreli (CRM com IA para WhatsApp e redes sociais) e MeulinkPRO (cartão de visita digital e links).",
+    "Atuo como CTO e Engenheiro de Software na Teorize, onde lidero a definição de arquitetura e o desenvolvimento de soluções tecnológicas robustas. Com base em 6+ anos de experiência em desenvolvimento full-stack — incluindo passagem sólida por agências de marketing e mais de 100 lojas virtuais entregues —, hoje concentro meu trabalho em construir sistemas escaláveis, seguros e de alto desempenho.",
+    "Minha atuação combina interfaces responsivas otimizadas para SEO, arquitetura de microserviços com RabbitMQ e Redis, back-end robusto com NestJS, Go e Python, ORMs modernos no ecossistema Node.js (Drizzle, Prisma, TypeORM) e Sqlc para Go, deploy em VPS com storage S3 (AWS, MinIO, Backblaze), integrações de pagamento via Stripe e outros gateways, além de práticas de CI/CD em ambientes cloud.",
+    "Movido pela curiosidade e pelo aprendizado constante, sigo explorando novas tecnologias para elevar a qualidade e a performance dos projetos que lidero. Aberto a trocas e conexões com outros profissionais da área.",
   ],
   timeline: [
-    { year: "2020", title: "Início em agências de marketing", description: "Desenvolvimento e otimização de e-commerce" },
-    { year: "2022", title: "Stack moderna", description: "Next.js, NestJS e ferramentas cloud" },
-    { year: "2024", title: "Escala e integrações", description: "RabbitMQ, Redis, APIs e microserviços" },
-    { year: "2024", title: "CTO na Teorize", description: "Liderança técnica, Teorize, Coreli e MeulinkPRO" },
+    {
+      year: "2019",
+      title: "Início em agências de marketing",
+      description: "Desenvolvimento e otimização de e-commerce — 100+ lojas virtuais entregues",
+    },
+    {
+      year: "2022",
+      title: "Stack moderna",
+      description: "Next.js, NestJS, PostgreSQL e ferramentas cloud",
+    },
+    {
+      year: "2024",
+      title: "Arquitetura e integrações",
+      description: "Microserviços com RabbitMQ, Redis, Go, Stripe e APIs",
+    },
+    {
+      year: "2025",
+      title: "CTO na Teorize",
+      description: "Liderança técnica, arquitetura e ecossistema (Teorize, Coreli, MeulinkPRO)",
+    },
   ],
   stats: [
-    { value: "5+", label: "Anos de experiência" },
-    { value: "100+", label: "Lojas/clientes" },
-    { value: "—", label: "Foco em performance" },
+    { value: "6+", label: "Anos de experiência" },
+    { value: "CTO", label: "Na Teorize" },
   ],
 };

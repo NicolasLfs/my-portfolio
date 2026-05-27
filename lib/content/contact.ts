@@ -1,6 +1,9 @@
 import type { ContactContent } from "@/types/portfolio";
 
 export const contactContent: ContactContent = {
+  headline: "Vamos conversar?",
+  intro:
+    "Aberto a contatos, negócios e futuros clientes da Teorize.",
   channels: [
     {
       id: "email",
@@ -23,7 +26,8 @@ export const contactContent: ContactContent = {
       value: "github.com/NicolasLfs",
       href: "https://github.com/NicolasLfs",
       icon: "github",
-    }    
+    },
   ],
-  footerText: "Respondo em até 24 horas • Disponível para trabalho remoto",
+  footerText:
+    "Respondo em até 24 horas",
 };

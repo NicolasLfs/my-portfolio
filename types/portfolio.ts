@@ -71,6 +71,8 @@ export interface ContactChannel {
 }
 
 export interface ContactContent {
+  headline: string;
+  intro: string;
   channels: ContactChannel[];
   footerText?: string;
 }

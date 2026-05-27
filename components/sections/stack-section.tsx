@@ -2,7 +2,8 @@ import {
   Code2,
   Zap,
   Layers,
-  Users,
+  Server,
+  Workflow,
   type LucideIcon,
 } from "lucide-react";
 import { stackContent } from "@/lib/content/stack";
@@ -13,7 +14,8 @@ const pillarIcons: Record<string, LucideIcon> = {
   code: Code2,
   zap: Zap,
   layers: Layers,
-  users: Users,
+  server: Server,
+  workflow: Workflow,
 };
 
 function PillarCard({ pillar }: { pillar: Pillar }) {

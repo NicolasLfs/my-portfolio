@@ -20,9 +20,9 @@ function ProjectImage({ src, alt }: { src: string; alt: string }) {
     <Image
       src={src}
       alt={alt}
-      width={800}
-      height={450}
-      className="aspect-video w-full rounded-lg object-cover transition-transform duration-300 hover:scale-[1.02]"
+      width={1920}
+      height={914}
+      className="h-auto w-full rounded-lg transition-transform duration-300 hover:scale-[1.02]"
     />
   );
 }
@@ -47,16 +47,6 @@ function ProjectCard({
     >
       <div className="shrink-0 md:w-1/2">
         <ProjectImage src={project.image} alt={project.title} />
-      </div>
-      <div className="flex flex-1 flex-col md:w-1/2">
-        <p className="font-mono text-xs font-medium uppercase tracking-widest text-primary">
-          {project.label}
-        </p>
-        <h3 className="mt-2 text-2xl font-semibold tracking-tight text-foreground md:text-3xl">
-          {project.title}
-        </h3>
-        <p className="mt-4 text-muted-foreground">{project.problem}</p>
-        <p className="mt-2 text-sm text-muted-foreground">{project.solution}</p>
         <div className="mt-6 grid grid-cols-3 gap-4">
           {project.metrics.map((m) => (
             <div key={m.label} className="text-center">
@@ -67,6 +57,17 @@ function ProjectCard({
             </div>
           ))}
         </div>
+      </div>
+      <div className="flex flex-1 flex-col md:w-1/2">
+        <p className="font-mono text-xs font-medium uppercase tracking-widest text-primary">
+          {project.label}
+        </p>
+        <h3 className="mt-2 text-2xl font-semibold tracking-tight text-foreground md:text-3xl">
+          {project.title}
+        </h3>
+        <p className="mt-4 text-muted-foreground">{project.problem}</p>
+        <p className="mt-2 text-sm text-muted-foreground">{project.solution}</p>
+        
         <div className="mt-6 flex flex-wrap gap-2">
           {project.techStack.map((tech) => (
             <span
