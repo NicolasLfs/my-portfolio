@@ -8,8 +8,8 @@ export const contactContent: ContactContent = {
     {
       id: "email",
       label: "Email",
-      value: "nicolas.lopes@agenciateorize.com.br",
-      href: "mailto:nicolas.lopes@agenciateorize.com.br",
+      value: "nicolaslopes03@hotmail.com",
+      href: "mailto:nicolaslopes03@hotmail.com",
       icon: "mail",
       highlight: true,
     },

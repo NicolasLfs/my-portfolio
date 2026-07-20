@@ -9,6 +9,6 @@ export const heroContent: HeroContent = {
   ctas: {
     primary: { label: "Ver projetos", href: "#projetos" },
     secondary: { label: "GitHub →", href: "https://github.com/NicolasLfs" },
-    ghost: { label: "Baixar CV", href: "/cv.pdf" },
+    ghost: { label: "Baixar CV", href: "/Profile.pdf" },
   },
 };
