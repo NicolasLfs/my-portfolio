@@ -1,11 +1,11 @@
 import type { HeroContent } from "@/types/portfolio";
 
 export const heroContent: HeroContent = {
-  microLabel: "CTO & ENGENHEIRO DE SOFTWARE • TEORIZE",
+  microLabel: "ENGENHEIRO DE SOFTWARE • DISPONÍVEL PARA OPORTUNIDADES",
   name: "Nicolas",
-  headline: "Arquitetura, integrações e escalabilidade",
+  headline: "Arquitetura de sistemas e infraestrutura de produção",
   subheadline:
-    "Lidero a definição de arquitetura e o desenvolvimento de soluções tecnológicas robustas na Teorize. 6+ anos em full-stack — de agências e 100+ lojas virtuais a sistemas escaláveis, seguros e de alto desempenho.",
+    "6+ anos em desenvolvimento full-stack — de agências de marketing e liderança técnica em startup a microserviços em produção. Busco colaborar em projetos desafiadores com profissionais experientes.",
   ctas: {
     primary: { label: "Ver projetos", href: "#projetos" },
     secondary: { label: "GitHub →", href: "https://github.com/NicolasLfs" },

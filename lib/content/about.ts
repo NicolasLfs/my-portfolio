@@ -3,9 +3,9 @@ import type { AboutContent } from "@/types/portfolio";
 export const aboutContent: AboutContent = {
   image: "/nick.jpeg",
   paragraphs: [
-    "Atuo como CTO e Engenheiro de Software na Teorize, onde lidero a definição de arquitetura e o desenvolvimento de soluções tecnológicas robustas. Com base em 6+ anos de experiência em desenvolvimento full-stack — incluindo passagem sólida por agências de marketing e mais de 100 lojas virtuais entregues —, hoje concentro meu trabalho em construir sistemas escaláveis, seguros e de alto desempenho.",
-    "Minha atuação combina interfaces responsivas otimizadas para SEO, arquitetura de microserviços com RabbitMQ e Redis, back-end robusto com NestJS, Go e Python, ORMs modernos no ecossistema Node.js (Drizzle, Prisma, TypeORM) e Sqlc para Go, deploy em VPS com storage S3 (AWS, MinIO, Backblaze), integrações de pagamento via Stripe e outros gateways, além de práticas de CI/CD em ambientes cloud.",
-    "Movido pela curiosidade e pelo aprendizado constante, sigo explorando novas tecnologias para elevar a qualidade e a performance dos projetos que lidero. Aberto a trocas e conexões com outros profissionais da área.",
+    "Engenheiro de Software com 6+ anos de experiência em desenvolvimento full-stack, incluindo passagem por agências de marketing e liderança técnica em startup. Hoje busco aprofundar meu conhecimento em arquitetura de sistemas e infraestrutura de produção, colaborando em projetos desafiadores com profissionais experientes.",
+    "Minha experiência inclui arquitetura e operação de microserviços em produção (Go, React/Next.js, RabbitMQ, Redis), otimização de PostgreSQL com réplicas de leitura/escrita e PgBouncer, infraestrutura completa em VPS com Docker, CDN via Cloudflare, storages S3 híbridos (AWS, Backblaze, MinIO), observabilidade com OpenTelemetry e Grafana, e integrações de pagamento via Stripe e outros gateways.",
+    "Movido pela curiosidade e pelo aprendizado constante, sigo explorando novas tecnologias para elevar a qualidade dos projetos em que colaboro. Aberto a novas oportunidades e conexões com outros profissionais da área.",
   ],
   timeline: [
     {
@@ -25,12 +25,12 @@ export const aboutContent: AboutContent = {
     },
     {
       year: "2025",
-      title: "CTO na Teorize",
-      description: "Liderança técnica, arquitetura e ecossistema (Teorize, Coreli, MeulinkPRO)",
+      title: "Liderança técnica em startup",
+      description: "Arquitetura de microserviços, ecossistema SaaS e infraestrutura em produção",
     },
   ],
   stats: [
     { value: "6+", label: "Anos de experiência" },
-    { value: "CTO", label: "Na Teorize" },
+    { value: "Aberto", label: "A oportunidades" },
   ],
 };

@@ -31,7 +31,7 @@ export default function OpenGraphImage() {
             color: "#471bf6",
           }}
         >
-          {siteConfig.jobTitle} • {siteConfig.organization}
+          {siteConfig.jobTitle} • {siteConfig.tagline}
         </p>
         <p
           style={{
@@ -54,7 +54,7 @@ export default function OpenGraphImage() {
             color: "#a0a0b0",
           }}
         >
-          Arquitetura, integrações e escalabilidade
+          Arquitetura de sistemas e infraestrutura de produção
         </p>
       </div>
     ),

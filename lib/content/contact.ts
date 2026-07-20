@@ -3,7 +3,7 @@ import type { ContactContent } from "@/types/portfolio";
 export const contactContent: ContactContent = {
   headline: "Vamos conversar?",
   intro:
-    "Aberto a contatos, negócios e futuros clientes da Teorize.",
+    "Aberto a novas oportunidades, contatos e conexões com profissionais da área.",
   channels: [
     {
       id: "email",

@@ -25,10 +25,6 @@ export function getPortfolioJsonLd() {
         url: siteConfig.url,
         image: `${siteConfig.url}${siteConfig.image}`,
         email: siteConfig.author.email,
-        worksFor: {
-          "@type": "Organization",
-          name: siteConfig.organization,
-        },
         sameAs,
         knowsAbout: [
           "Next.js",
