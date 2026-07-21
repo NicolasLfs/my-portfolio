@@ -82,7 +82,7 @@ export function SiteFooter() {
               © {year} {siteName}. Todos os direitos reservados.
             </p>
             <p className="text-sm text-muted-foreground">
-              Feito com Next.js, shadcn/ui e ☕
+              Feito com Next.js, Tailwind CSS, shadcn/ui e ☕
             </p>
           </div>
           <a

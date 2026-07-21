@@ -16,7 +16,7 @@ export interface ProjectMetric {
 }
 
 export interface ProjectLinks {
-  demo?: string;
+  production?: string;
   github?: string;
   caseStudy?: string;
 }

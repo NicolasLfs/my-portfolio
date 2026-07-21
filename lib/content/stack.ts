@@ -20,6 +20,7 @@ export const stackContent: StackContent = {
         { name: "Python", years: 2 },
         { name: "Go", years: 1 },
         { name: "PostgreSQL", years: 5 },
+        { name: "PgBouncer", years: 1 },
         { name: "Redis", years: 3 },
         { name: "TypeORM / Drizzle / Prisma", years: 3 },
         { name: "Sqlc", years: 1 },
@@ -30,12 +31,15 @@ export const stackContent: StackContent = {
       items: [
         { name: "RabbitMQ", years: 2 },
         { name: "Amazon AWS / S3", years: 3 },
-        { name: "MinIO / Backblaze", years: 1 },
+        { name: "Backblaze B2", years: 1 },
+        { name: "MinIO", years: 1 },
         { name: "Google Cloud / VPS", years: 4 },
+        { name: "EasyPanel", years: 1 },
+        { name: "Cloudflare", years: 2 },
+        { name: "OpenTelemetry / Grafana", years: 1 },
         { name: "Stripe / APIs de pagamento", years: 3 },
         { name: "Git", years: 6 },
         { name: "Docker", years: 3 },
-        { name: "Kong Gateway", years: 3 },
         { name: "Google Workspace", years: 4 },
       ],
     },
@@ -46,6 +50,12 @@ export const stackContent: StackContent = {
       description:
         "Desenvolvimento de interfaces otimizadas para desempenho e busca, com foco em Core Web Vitals.",
       icon: "zap",
+    },
+    {
+      title: "PostgreSQL em produção",
+      description:
+        "Réplicas de leitura/escrita, connection pooling com PgBouncer e tuning de índices SQL para alta carga.",
+      icon: "server",
     },
     {
       title: "Microserviços e cache",
@@ -68,8 +78,14 @@ export const stackContent: StackContent = {
     {
       title: "VPS e storage S3",
       description:
-        "Deploy e infraestrutura em VPS, com domínio de múltiplas soluções S3 (AWS, MinIO, Backblaze).",
+        "Deploy em VPS com EasyPanel e Docker. Experiência com storages S3-compatible (AWS, Backblaze, MinIO).",
       icon: "server",
+    },
+    {
+      title: "Observabilidade em produção",
+      description:
+        "Rastreamento distribuído com OpenTelemetry, dashboards em Grafana e CDN/proxy via Cloudflare.",
+      icon: "workflow",
     },
     {
       title: "Integrações de pagamento",

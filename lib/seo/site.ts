@@ -39,5 +39,5 @@ export const siteConfig = {
     github: github?.href,
     linkedin: linkedin?.href,
   },
-  image: "/nick.jpeg",
+  image: "/perfil.jpeg",
 } as const;

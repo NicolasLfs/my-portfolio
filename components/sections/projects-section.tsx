@@ -47,16 +47,19 @@ function ProjectCard({
     >
       <div className="shrink-0 md:w-1/2">
         <ProjectImage src={project.image} alt={project.title} />
-        <div className="mt-6 grid grid-cols-3 gap-4">
+        <ul className="mt-6 flex flex-col gap-5">
           {project.metrics.map((m) => (
-            <div key={m.label} className="text-center">
-              <p className="text-2xl font-bold text-primary md:text-3xl">
+            <li
+              key={m.label}
+              className="border-l-2 border-primary/30 pl-4"
+            >
+              <p className="text-lg font-bold leading-snug text-primary md:text-xl">
                 {m.value}
               </p>
-              <p className="mt-1 text-xs text-muted-foreground">{m.label}</p>
-            </div>
+              <p className="mt-1 text-sm text-muted-foreground">{m.label}</p>
+            </li>
           ))}
-        </div>
+        </ul>
       </div>
       <div className="flex flex-1 flex-col md:w-1/2">
         <p className="font-mono text-xs font-medium uppercase tracking-widest text-primary">
@@ -79,14 +82,14 @@ function ProjectCard({
           ))}
         </div>
         <div className="mt-6 flex flex-wrap gap-4">
-          {project.links?.demo && (
+          {project.links?.production && (
             <a
-              href={project.links.demo}
+              href={project.links.production}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-sm font-medium text-primary transition-colors hover:text-primary/90 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
             >
-              Ver demo
+              Ver em produção
               <ExternalLink className="size-4" aria-hidden />
             </a>
           )}
@@ -125,7 +128,7 @@ export function ProjectsSection() {
           O que eu construí
         </h2>
         <p className="mt-4 max-w-2xl text-muted-foreground">
-          Uma seleção de projetos que demonstram minha expertise em
+          Aplicações em produção que refletem minha expertise em
           desenvolvimento fullstack e arquitetura de software.
         </p>
         <div className="mt-24 flex flex-col gap-24">

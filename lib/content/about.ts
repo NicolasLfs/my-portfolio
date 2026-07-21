@@ -1,10 +1,10 @@
 import type { AboutContent } from "@/types/portfolio";
 
 export const aboutContent: AboutContent = {
-  image: "/nick.jpeg",
+  image: "/perfil.jpeg",
   paragraphs: [
     "Engenheiro de Software com 6+ anos de experiência em desenvolvimento full-stack, incluindo passagem por agências de marketing e liderança técnica em startup. Hoje busco aprofundar meu conhecimento em arquitetura de sistemas e infraestrutura de produção, colaborando em projetos desafiadores com profissionais experientes.",
-    "Minha experiência inclui arquitetura e operação de microserviços em produção (Go, React/Next.js, RabbitMQ, Redis), otimização de PostgreSQL com réplicas de leitura/escrita e PgBouncer, infraestrutura completa em VPS com Docker, CDN via Cloudflare, storages S3 híbridos (AWS, Backblaze, MinIO), observabilidade com OpenTelemetry e Grafana, e integrações de pagamento via Stripe e outros gateways.",
+    "Minha experiência inclui arquitetura e operação de microserviços em produção (Go, React/Next.js, RabbitMQ, Redis), otimização de PostgreSQL com réplicas de leitura/escrita e PgBouncer, infraestrutura completa em VPS com Docker, CDN via Cloudflare, storages S3-compatible (AWS, Backblaze e MinIO self-hosted), observabilidade com OpenTelemetry e Grafana, e integrações de pagamento via Stripe e outros gateways.",
     "Movido pela curiosidade e pelo aprendizado constante, sigo explorando novas tecnologias para elevar a qualidade dos projetos em que colaboro. Aberto a novas oportunidades e conexões com outros profissionais da área.",
   ],
   timeline: [
