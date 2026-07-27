@@ -1,4 +1,5 @@
 import { ImageResponse } from "next/og";
+import { heroContent } from "@/lib/content/hero";
 import { siteConfig } from "@/lib/seo/site";
 
 export const alt = siteConfig.title;
@@ -54,7 +55,7 @@ export default function OpenGraphImage() {
             color: "#a0a0b0",
           }}
         >
-          Arquitetura de sistemas e infraestrutura de produção
+          {heroContent.headline}
         </p>
       </div>
     ),

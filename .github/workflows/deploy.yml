@@ -30,4 +30,4 @@ jobs:
             docker run -d -p 3000:3000 --name nextjs-app nextjs-app
             
             # Limpar imagens antigas
-            docker system prune -f
+            docker system prune -a --volumes -f

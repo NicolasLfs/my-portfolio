@@ -3,7 +3,7 @@ import type { ContactContent } from "@/types/portfolio";
 export const contactContent: ContactContent = {
   headline: "Vamos conversar?",
   intro:
-    "Aberto a novas oportunidades, contatos e conexões com profissionais da área.",
+    "Aberto a oportunidades em engenharia de software, arquitetura de sistemas e infraestrutura de produção.",
   channels: [
     {
       id: "email",
@@ -16,8 +16,8 @@ export const contactContent: ContactContent = {
     {
       id: "linkedin",
       label: "LinkedIn",
-      value: "linkedin.com/in/nicolas-lopes-4906b1108/",
-      href: "https://www.linkedin.com/in/nicolas-lopes-4906b1108/",
+      value: "linkedin.com/in/nicolaslopes-eng",
+      href: "https://www.linkedin.com/in/nicolaslopes-eng",
       icon: "linkedin",
     },
     {
