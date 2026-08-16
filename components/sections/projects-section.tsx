@@ -2,7 +2,7 @@ import Image from "next/image";
 import { ExternalLink, Github } from "lucide-react";
 import { projects } from "@/lib/content/projects";
 import type { Project } from "@/types/portfolio";
-import { cn } from "@/lib/utils";
+import { cn, withBasePath } from "@/lib/utils";
 
 function ProjectImage({ src, alt }: { src: string; alt: string }) {
   const isPlaceholder = src.startsWith("/placeholder");
@@ -18,7 +18,7 @@ function ProjectImage({ src, alt }: { src: string; alt: string }) {
 
   return (
     <Image
-      src={src}
+      src={withBasePath(src)}
       alt={alt}
       width={1920}
       height={914}

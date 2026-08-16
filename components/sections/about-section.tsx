@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { aboutContent } from "@/lib/content/about";
-import { cn } from "@/lib/utils";
+import { cn, withBasePath } from "@/lib/utils";
 
 function AboutImage({ src }: { src: string }) {
   const isPlaceholder = src.startsWith("/placeholder");
@@ -16,7 +16,7 @@ function AboutImage({ src }: { src: string }) {
 
   return (
     <Image
-      src={src}
+      src={withBasePath(src)}
       alt="Foto de perfil"
       width={400}
       height={533}
