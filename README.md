@@ -44,3 +44,4 @@ pnpm start
 
 Coloque imagens em `public/` e atualize os paths nos arquivos de conteúdo. Placeholders usam div quando o path começa com `/placeholder`.
 
+Atualizando
