@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Host: http://ec2-18-119-99-178.us-east-2.compute.amazonaws.com:3000
+Sitemap: http://ec2-18-119-99-178.us-east-2.compute.amazonaws.com:3000/sitemap.xml
