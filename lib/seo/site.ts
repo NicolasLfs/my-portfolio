@@ -6,7 +6,7 @@ const linkedin = contactContent.channels.find((c) => c.id === "linkedin");
 const email = contactContent.channels.find((c) => c.id === "email");
 
 export const siteConfig = {
-  url: "http://ec2-18-119-99-178.us-east-2.compute.amazonaws.com:3000",
+  url: "https://nicolaslfs.github.io/my-portfolio",
   name: heroContent.name,
   fullName: "Nicolas Lopes",
   title: "Nicolas Lopes — Engenheiro de Software | Go • Next.js • PostgreSQL • Microserviços",
