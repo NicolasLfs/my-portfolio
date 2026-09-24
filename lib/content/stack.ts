@@ -40,7 +40,6 @@ export const stackContent: StackContent = {
         { name: "Stripe / APIs de pagamento", years: 3 },
         { name: "Git", years: 6 },
         { name: "Docker", years: 3 },
-        { name: "Google Workspace", years: 4 },
       ],
     },
   ],

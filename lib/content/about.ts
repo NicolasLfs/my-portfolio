@@ -5,7 +5,7 @@ export const aboutContent: AboutContent = {
   paragraphs: [
     "Engenheiro de Software com 6+ anos de experiência construindo aplicações full-stack e ecossistemas SaaS escaláveis em produção. Especializado em arquitetura de microserviços com Go no back-end e Next.js no front-end, com PostgreSQL em produção — réplicas de leitura/escrita, tuning de índices SQL e connection pooling com PgBouncer.",
     "Infraestrutura completa em VPS com Docker, EasyPanel, CDN e proxy via Cloudflare. Storage híbrido S3-compatible (AWS, Backblaze B2, MinIO). Observabilidade com OpenTelemetry e Grafana. Integrações de pagamento via Stripe e APIs REST. Na Teorize, arquitetura e desenvolvimento do ecossistema SaaS — migrando de WordPress para microserviços em produção, incluindo Teorize, Coreli CRM e MeulinkPRO.",
-    "Aprimorando conhecimentos em Terraform (Infrastructure as Code) e segurança de aplicações SaaS com Aikido Security. Aberto a oportunidades em engenharia de software, arquitetura de sistemas e infraestrutura de produção.",
+    "Aprimorando conhecimentos em Terraform (Infrastructure as Code) e segurança de aplicações com curso de Cibersegurança da Cisco Networking Academy. Aberto a oportunidades em engenharia de software, arquitetura de sistemas e infraestrutura de produção.",
   ],
   timeline: [
     {
