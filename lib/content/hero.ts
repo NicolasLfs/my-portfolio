@@ -1,7 +1,7 @@
 import type { HeroContent } from "@/types/portfolio";
 
 export const heroContent: HeroContent = {
-  microLabel: "ENGENHEIRO DE SOFTWARE • GO • NEXT.JS • MICROSERVIÇOS • SAAS",
+  microLabel: "ENGENHEIRO DE SOFTWARE • GO • NEXT.JS • MICROSERVIÇOS",
   name: "Nicolas",
   headline: "Ecossistemas SaaS escaláveis em produção",
   subheadline:
